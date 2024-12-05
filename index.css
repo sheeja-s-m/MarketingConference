@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+  font-family: "Georgia", serif;
+  background-color: #f3e8ff; /* Pastel lavender */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  color: #5a189a; /* Rich purple */
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  width: 18rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: #212529;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+/* Card Content */
+.card-body {
+  padding: 1rem;
+  text-align: center;
+  background-color: #fdfaff; /* Light lavender */
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #5a189a; /* Rich purple */
+  margin: 0;
+}
+
+/* Card Footer */
+.card-footer {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+footer {
+  background: hsl(var(--gray-9-hsl));
+  color: hsl(var(--gray-0-hsl));
+}
+
+
