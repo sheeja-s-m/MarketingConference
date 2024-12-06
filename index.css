@@ -66,4 +66,6 @@ main .links-container {
 footer {
   justify-self: center;
   text-align: center;
+  background-color: hsl(107.52deg 50.75% 39.02%);
+  color: white;
 }
