@@ -97,6 +97,15 @@ main .about {
   color: #0c166b;
 }
 
+main .welcome {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: hsl(107.52deg 50.75% 39.02%);
+}
+
 main .links-container {
   padding: 1rem;
 }
