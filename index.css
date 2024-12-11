@@ -53,7 +53,7 @@ img {
 }
 
 .pancake-layout {
-  min-height: 100vmin;
+  min-height: 100vmax;
   display: flex;
   flex-direction: column;
 /*   display: grid; */
