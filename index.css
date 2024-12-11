@@ -1,7 +1,49 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
 /* General Styling */
 body {
   font-family: "Georgia", serif;
-  background-color: hsl(215 75% 85% / 1);
+  background-color: white;
   color: #333;
 }
 
@@ -13,7 +55,7 @@ img {
 .pancake-layout {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 2fr 1fr;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +64,7 @@ img {
 header {
   justify-self: center;
   width: 100%;
+  padding: 0.5rem 1rem;
 }
 
 .nav-links {
@@ -34,7 +77,7 @@ header {
 }
 
 .nav-link img {
-  width: 150px;
+  width: 100px;
 }
 
 main {
@@ -68,9 +111,12 @@ main .links-container {
   padding: 1rem;
   text-decoration: none;
   color: #1338b3;
+  /* color: white; */
+  background-color: hsl(215 75% 85% / 1);
 }
 
 footer {
+  align-self: flex-end;
   text-align: center;
   background-color: hsl(107.52deg 50.75% 39.02%);
   color: white;
