@@ -55,7 +55,7 @@ img {
 .pancake-layout {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 2fr 1fr;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -116,6 +116,7 @@ main .links-container {
 }
 
 footer {
+  align-self: flex-end;
   text-align: center;
   background-color: hsl(107.52deg 50.75% 39.02%);
   color: white;
