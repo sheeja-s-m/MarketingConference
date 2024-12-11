@@ -85,6 +85,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 main .about {
@@ -119,7 +120,9 @@ main .links-container {
 
 footer {
 /*   align-self: flex-end; */
-  margin-top: auto;
+/*   margin-top: auto; */
+  position: fixed;
+  bottom: 0;
   text-align: center;
   background-color: hsl(107.52deg 50.75% 39.02%);
   color: white;
