@@ -64,6 +64,7 @@ img {
 header {
   justify-self: center;
   width: 100%;
+  padding: 0.5rem 1rem;
 }
 
 .nav-links {
